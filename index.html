@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SyntaxCore | Web Development</title>
+  <meta name="description" content="SyntaxCore builds modern, mobile-friendly 
+  websites using clean code and cutting-edge tech. Custom development, secure logins, 
+  SEO, and hosting help — everything your business needs to grow online." />
+
+
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="contact.js" defer></script>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png" />
+
+</head>
+
+<body>
+  <header>
+
+    <button id="theme-toggle" aria-label="Toggle Light/Dark Mode">
+  <span id="theme-icon">🌙</span>
+</button>
+
+
+    <svg
+  class="hero-bg"
+  viewBox="0 0 800 400"
+  preserveAspectRatio="xMidYMid slice"
+>
+  <defs>
+    <linearGradient id="gradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff6f61" />
+      <stop offset="100%" stop-color="#9efff5" />
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="150" fill="url(#gradient)" opacity="0.1" />
+  <circle cx="600" cy="300" r="100" fill="url(#gradient)" opacity="0.08" />
+</svg>
+
+
+
+  <div class="logo-title">
+    <img src="syntaxcore-tech-logo.png" alt="SyntaxCore Logo" class="header-logo" />
+    <p class="tagline-chip"> custom-built digital solutions</p>
+    <h1 class="header-title" data-aos="fade-up">Web Development & Digital Solutions</h1>
+    <p class="header-subtitle" data-aos="fade-up" data-aos-delay="100">
+      Building clean, mobile-friendly websites for small businesses and creatives
+    </p>
+    <a href="#contact" class="button" data-aos="fade-up" data-aos-delay="200">Get in Touch <i class="fas fa-arrow-right"></i></a>
+  </div>
+  </header>
+
+<section class="about-section" data-aos="fade-up">
+  <div class="about-grid">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        SyntaxCore is a modern web development company building fast, secure, and beautiful websites tailored to your goals.
+        Whether you’re starting fresh or upgrading an old site, we make the process simple and results-driven.
+      </p>
+      <p>
+        From custom-coded solutions and responsive design to secure login systems and SEO optimization, we handle every technical detail — so you can focus on what you do best.
+      </p>
+    </div>
+    <div class="about-card">
+      <h3>What Makes Us Different</h3>
+      <ul>
+        <li><i class="fas fa-check-circle"></i> Code-first, template-free builds</li>
+        <li><i class="fas fa-mobile-alt"></i> Mobile-first design strategy</li>
+        <li><i class="fas fa-lock"></i> Security integrated from day one</li>
+        <li><i class="fas fa-handshake"></i> Honest, clear communication</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="services" data-aos="fade-left">
+  <h2>Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-code"></i>
+      </div>
+      <h3>Custom Website Development</h3>
+      <p>From landing pages to dynamic web apps — built with clean, modern code.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-camera-retro"></i>
+      </div>
+      <h3>Client Galleries & Photography Sites</h3>
+      <p>Professional, mobile-friendly sites with private galleries and uploads.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-lock"></i>
+      </div>
+      <h3>Secure Login Systems</h3>
+      <p>Authentication, protected pages, and role-based access — powered by Firebase.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-chart-line"></i>
+      </div>
+      <h3>SEO & Performance Optimization</h3>
+      <p>Fast load times, structured metadata, accessibility, and search rankings that work.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-server"></i>
+      </div>
+      <h3>Maintenance & Hosting Help</h3>
+      <p>Deployments, DNS, backups, and ongoing updates handled for you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="why-syntaxcore" data-aos="fade-up">
+  <h2>Why Choose SyntaxCore?</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-bolt"></i>
+      </div>
+      <h3>Performance First</h3>
+      <p>Fast-loading websites built with clean code, compressed assets, and SEO best practices.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-shield-alt"></i>
+      </div>
+      <h3>Secure by Design</h3>
+      <p>From Firebase Auth to HTTPS — security is baked in, not bolted on.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-mobile-alt"></i>
+      </div>
+      <h3>Responsive Across All Devices</h3>
+      <p>100% mobile-ready, tablet-friendly, and desktop-perfect websites every time.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper">
+      <i class="fas fa-handshake"></i>
+      </div>
+      <h3>Client-Focused</h3>
+      <p>We work closely with you, speak human not jargon, and build solutions that actually help.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="portfolio" data-aos="fade-right">
+    <h2>Our Work</h2>
+    <p>Here are a few sample projects (more coming soon!):</p>
+<!-- Swiper Carousel -->
+<div class="swiper swiper-container">
+  <div class="swiper-wrapper">
+  <!-- Project 1 -->
+  <div class="swiper-slide project-slide" data-aos="zoom-in">
+    <a href="https://radiantauraphotography.com/" target="_blank" rel="noopener noreferrer">
+      <img src="Images/radiant-aura-thumb.png" alt="Radiant Aura" />
+      <div class="project-info">
+        <h3>Radiant Aura Photography</h3>
+        <p>Client galleries + secure login with Firebase backend.</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- Project 2 - Coming Soon -->
+  <div class="swiper-slide project-slide" data-aos="zoom-in">
+    <div class="coming-soon-badge">Coming Soon</div>
+    <div class="gradient-placeholder">
+      <span>Future Project</span>
+    </div>
+    <div class="project-info">
+      <h3>Another Project</h3>
+      <p>Sleek and responsive business site — launching soon!</p>
+    </div>
+  </div>
+
+  <!-- Project 3 - Coming Soon -->
+  <div class="swiper-slide project-slide gradient-slide" data-aos="zoom-in">
+    <div class="coming-soon-badge">Coming Soon</div>
+    <div class="gradient-placeholder">
+      <span>Future Project</span>
+    </div>
+    <div class="project-info">
+      <h3>Future Project</h3>
+      <p>Another web project is in the works — stay tuned!</p>
+    </div>
+  </div>
+
+  <!-- Project 4 - Tools -->
+  <div class="swiper-slide project-slide gradient-slide" data-aos="zoom-in">
+    <img src="Images/placeholder4.jpg" alt="SyntaxCore Tools" onerror="this.style.display='none'" />
+    <div class="project-info">
+      <h3>SyntaxCore Tools</h3>
+      <p>Custom admin dashboards, CMS panels, and secure login portals.</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navigation buttons -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+  </section>
+
+  <section class="testimonials" data-aos="fade-up">
+  <h2>What Our Clients Say</h2>
+  <blockquote>"Clayton from SyntaxCore transformed our online presence. Highly recommended!"</blockquote>
+  <cite>— Sarah, Radiant Aura Photography</cite>
+</section>
+
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>
+      Need a new site or want to collaborate?
+      <a href="mailto:cjdonnelly2001@gmail.com" style="color: #5bdde4">Email us here</a>
+      or use the form below.
+    </p>
+
+    <form id="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Email" required />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="1"
+        placeholder="Tell us what you're after — e.g. a new website, help with hosting, or updates to your current site"
+        required
+        maxlength="500"
+      ></textarea>
+
+      <small id="char-count">0 / 500 characters</small>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p id="status-message"></p>
+  </section>
+
+  <footer>&copy; 2025 SyntaxCore | ABN: 97 818 584 948</footer>
+
+  <script>
+  AOS.init({
+    duration: 800, // animation duration in ms
+    once: true     // only animate once per scroll
+  });
+</script>
+
+</body>
+</html>
