@@ -32,9 +32,9 @@ app.post("/", async (req, res) => {
     await transporter.sendMail({
       from: gmailEmail,
       to: email,
-      subject: "Thanks for contacting Clayton Web Design!",
+      subject: "Thanks for contacting SyntaxCore Studio!",
       text: `Hi ${name},\n\nThanks for your message! 
-      I'll get back to you soon.\n\n- Clayton`,
+      we'll get back to you soon.\n\n- The SyntaxCore Team`,
     });
 
     res.status(200).send("Emails sent!");
